@@ -1,1 +1,41 @@
-<P>Hello Sakshi</P>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Modern E-commerce</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <!-- React app will mount here -->
+        <div id="loading" class="loading-screen">
+            <div class="spinner"></div>
+            <p>Loading ShopEasy...</p>
+        </div>
+    </div>
+
+    <!-- React and Babel for development -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Application Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/utils/api.js"></script>
+    <script src="js/utils/storage.js"></script>
+    <script src="js/data/mockData.js"></script>
+    <script type="text/babel" src="js/components/Header.js"></script>
+    <script type="text/babel" src="js/components/ProductCard.js"></script>
+    <script type="text/babel" src="js/components/ProductGrid.js"></script>
+    <script type="text/babel" src="js/components/Cart.js"></script>
+    <script type="text/babel" src="js/components/ProductDetail.js"></script>
+    <script type="text/babel" src="js/components/Auth.js"></script>
+    <script type="text/babel" src="js/components/Checkout.js"></script>
+    <script type="text/babel" src="js/app.js"></script>
+</body>
+</html>
