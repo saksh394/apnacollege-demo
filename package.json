@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "Modern e-commerce frontend with React",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Build script placeholder'",
+    "start": "npx live-server --port=3000"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["ecommerce", "react", "frontend"],
+  "author": "",
+  "license": "MIT"
+}

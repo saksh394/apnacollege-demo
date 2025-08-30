@@ -1,0 +1,21 @@
+# Flask Backend Requirements
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5
+Flask-JWT-Extended==4.5.3
+Flask-Bcrypt==1.0.1
+python-dotenv==1.0.0
+
+# Optional: Database drivers
+# PostgreSQL
+# psycopg2-binary==2.9.7
+
+# MySQL
+# PyMySQL==1.1.0
+
+# MongoDB
+# pymongo==4.5.0
+
+# Development tools
+pytest==7.4.2
+pytest-flask==1.2.0
